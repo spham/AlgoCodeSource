@@ -1,6 +1,4 @@
-function retourneLaPhrase(str) {
-
-}
+let retourneLaPhrase = str => str.split('').reverse().join();
 
 console.log(retourneLaPhrase("Bonjour à tous"));
 
